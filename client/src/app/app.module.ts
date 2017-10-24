@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './common/partials/navigation/navigation.component';
+import { AppRouterModule } from './app.router';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { NavigationComponent } from './common/partials/navigation/navigation.com
     NavigationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

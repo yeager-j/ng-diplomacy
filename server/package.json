@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "The backend for ng-diplomacy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeager-j/ng-diplomacy.git"
+  },
+  "author": "Jackson Yeager, Max Bruce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeager-j/ng-diplomacy/issues"
+  },
+  "homepage": "https://github.com/yeager-j/ng-diplomacy#readme"
+}
